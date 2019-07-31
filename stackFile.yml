@@ -92,7 +92,7 @@ services:
     version: latest
     ports:
       - 8080
-    remoteAccess: true
+    remoteAccess: false
     env:
       ADMINER_DEFAULT_SERVER: "{{=service('db').getMasterAlias()}}"
     deployTo:
