@@ -79,7 +79,7 @@ services:
     ports:
       - 80
       - 443
-    remoteAccess: true
+    remoteAccess: false
     serviceFiles:
       - name: blog
         sticky: true
